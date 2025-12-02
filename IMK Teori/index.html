@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>CleanCampus – Home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* HERO CUSTOM */
+    .hero {
+      padding: 4rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .hero-title {
+      font-size: 2.7rem;
+      font-weight: 900;
+      line-height: 1.2;
+      background: linear-gradient(135deg, #ff9eb5, #7ccf8a);
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .hero-desc {
+      font-size: 1.1rem;
+      margin-top: .8rem;
+      color: #444;
+      max-width: 420px;
+    }
+
+    .hero-buttons {
+      margin-top: 1.5rem;
+    }
+
+    .btn-main {
+      padding: 0.9rem 1.6rem;
+      background: linear-gradient(135deg, #ff9eb5, #7ccf8a);
+      border: none;
+      color: white;
+      border-radius: 14px;
+      cursor: pointer;
+      font-size: 1rem;
+      margin-right: 0.8rem;
+      box-shadow: 0 8px 18px rgba(0,0,0,0.1);
+    }
+
+    .btn-outline {
+      padding: 0.9rem 1.6rem;
+      background: white;
+      border: 2px solid #7ccf8a;
+      color: #7ccf8a;
+      border-radius: 14px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .hero-img {
+      flex: 1;
+      min-width: 250px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-img img {
+      width: 340px;
+      filter: drop-shadow(0 8px 20px rgba(0,0,0,0.15));
+      border-radius: 20px;
+    }
+
+    /* FEATURE GRID */
+    .feature-section {
+      margin-top: 3rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      border-left: 6px solid #7ccf8a;
+      transition: .3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      border-color: #ff9eb5;
+    }
+
+    .feature-title {
+      font-weight: 700;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #7ccf8a;
+    }
+
+    .feature-desc {
+      color: #555;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <div class="nav">
+      <strong style="color:#7ccf8a;">Group 7 CleanCampus USTJ</strong>
+      <div>
+        <a href="index.html" class="active">Home</a>
+        <a href="problem.html">Problem Identification</a>
+        <a href="research.html">User Research</a>
+        <a href="ursd.html">URSD</a>
+        <a href="design.html">Design</a>
+        <a href="evaluation.html">Evaluation</a>
+        <a href="about.html">About Us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <div class="container hero">
+
+    <div class="hero-text">
+      <h1 class="hero-title">CleanCampus – A Clean Future Starts Here.</h1>
+
+      <p class="hero-desc">
+        Welcome to Group 7 HCI Assignment!  
+        CleanCampus adalah aplikasi pelaporan kebersihan kampus USTJ yang dirancang menggunakan User-Centered Design untuk memastikan proses yang mudah, cepat, dan transparan.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="problem.html"><button class="btn-outline">View Documents</button></a>
+      </div>
+    </div>
+
+
+  </div>
+
+  <footer>© 2025 – CleanCampus IMK Project – Group 7</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
